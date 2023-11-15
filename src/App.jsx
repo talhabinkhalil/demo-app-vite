@@ -11,7 +11,7 @@ function App() {
     const requestOptions = {
       method: "GET",
     };
-    await fetch("/api/collection/null", requestOptions)
+    await fetch("http://3.239.75.182:3000/api/collection/null", requestOptions)
       .then((res) => res.json())
       .then((res) => {
         console.log("ressssss", res);
